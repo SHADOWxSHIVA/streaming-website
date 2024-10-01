@@ -2,7 +2,7 @@ const video = document.getElementById('video');
 const playBtn = document.getElementById('playBtn');
 const pauseBtn = document.getElementById('pauseBtn');
 
-const socket = io.connect('http://localhost:3000');
+const socket = io.connect('54.254.162.138:3000');
 
 // Play button event
 playBtn.addEventListener('click', () => {
